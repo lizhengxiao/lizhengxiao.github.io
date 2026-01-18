@@ -398,6 +398,27 @@ pre code.hljs {
 			margin: auto;
 			padding-bottom: 0.5em;
  		}
+		// Improved list styling
+		ul {
+			li {
+				line-height: 1.8;
+				margin-bottom: 0.5em;
+			}
+		}
+		// Improved section headings
+		h3 {
+			margin-top: 1.5em;
+			margin-bottom: 0.8em;
+			font-weight: 600;
+		}
+		// Better link styling
+		a {
+			color: #3498db;
+			text-decoration: none;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
 	}
 }
 
