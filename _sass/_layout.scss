@@ -19,6 +19,21 @@ html, body {
 	width: 100%;
 }
 
+// Improved responsive styles for mobile
+@media (max-width: $mobile) {
+	.home {
+		div[style*="flex"] {
+			flex-direction: column !important;
+		}
+		div[style*="flex: 0 0 280px"] {
+			flex: 1 !important;
+			width: 100% !important;
+			max-width: 280px !important;
+			margin: 0 auto !important;
+		}
+	}
+}
+
 ol.default {
   @extend %default-ol;
 }

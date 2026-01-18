@@ -4,150 +4,244 @@ title: ""
 permalink: /englishcv/
 ---
 
-<h3>Work Experience</h3>
-<ul>
-  <li>2025 – Present &nbsp; University of International Business and Economics &nbsp; Associate Dean, School of Insurance and Economics</li>
-  <li>2023 – 2025 &nbsp; University of International Business and Economics &nbsp; Dean, Department of Statistics and Actuarial Science</li>
-  <li>2023 – Present &nbsp; University of International Business and Economics &nbsp; Doctoral Supervisor</li>
-  <li>2020 – Present &nbsp; University of International Business and Economics &nbsp; Associate Professor</li>
-  <li>2019 – 2020 &nbsp; KU Leuven &nbsp; Visiting Scholar</li>
-  <li>2017 – 2020 &nbsp; University of International Business and Economics &nbsp; Assistant Professor</li>
-</ul>
+<style>
+.cv-section {
+  margin-bottom: 40px;
+}
 
-<h3>Education Backgroud</h3>
- <ul>
-<li>2014-2017 &nbsp    Renmin Univeristy of China &nbsp School of Statistics &nbsp Department of Risk Management and Actuarial Science    &nbsp          PhD</li>
-<li>2012-2014  &nbsp  University of International Business and Economics &nbsp School of Insurance and Economics    &nbsp    Master </li>
-<li>2008-2012  &nbsp  Xiamen University &nbsp School of Economics  &nbsp Department of Finance    &nbsp  Bachelor</li>
-</ul>
+.cv-section h3 {
+  color: #2c3e50;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #3498db;
+  font-weight: 600;
+}
 
-<h3>Research Field</h3>
-<ul>
-<li> non-life ratmaking and reserving</li>
-<li> catastrophe risk measurement, extreme value theory</li>
-<li> statistical models, dependent risk analysis</li>
-<li> big data and machine learning methods</li>
-<li> R programming </li>
-</ul>
+.timeline-item {
+  margin-bottom: 16px;
+  padding-left: 20px;
+  border-left: 3px solid #e8e8e8;
+  padding-bottom: 10px;
+  position: relative;
+}
 
+.timeline-item::before {
+  content: "●";
+  position: absolute;
+  left: -8px;
+  color: #3498db;
+  font-size: 12px;
+}
 
-<h3>Teaching</h3>
-<ul>
-<li> Undergraduate: Interest Theory, Non-Life  Actuarial Science</li>
-<li> Graduate: Econometrics, non-life ratmaking, Machine Learning and insurance data analysis, quantitative risk management, risk ,odeling, insurance data analysis and R programming</li>
-</ul>
+.timeline-item strong {
+  color: #2c3e50;
+}
 
+.paper-item {
+  margin-bottom: 12px;
+  padding: 12px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  line-height: 1.7;
+  border-left: 3px solid #e8e8e8;
+  transition: border-color 0.3s;
+}
 
-<h3>Working Papaers  </h3>
-<ul>
-<li>Jiakun Jiang, Zhengxiao Li, Liang Yang. <a href="https://arxiv.org/abs/2301.03005"> Dynamic online prediction model and its application to automobile claim frequency data </a>, arXiv:2301.03005, 2023. </li> 
-<li>Liang Yang, Zhengxiao Li, Shengwang Meng. <a href="https://arxiv.org/abs/2002.01798"> Risk Loadings in Classification Ratemaking </a>, arXiv:2002.01798, 2020 . </li> 
-<li>Zhengxiao Li, <a href="https://lizhengxiao.github.io/rMGLReg/"> R package for a new beta-type copula: rMGLReg </a>.</li> 
-</ul>
+.paper-item:hover {
+  border-left-color: #3498db;
+}
 
+.research-item {
+  margin-bottom: 12px;
+  padding-left: 20px;
+  position: relative;
+}
 
-<h3>Published Papers (English)     </h3>
-<ul>
-<li>Fangping Yu, Mengdan Zhang, Zhengxiao Li, Mo Yang. Ship insurance in the era of AI: An intelligent risk profiling system under the POM principles [J]. Journal of Risk and Insurance, 2025, accepted.</li>
-<li>Pengcheng Zhang, Zhengxiao Li, Kuangnan Fang, Spatially clustered mixture of experts model for dependent frequency and severity of insurance claims. North American Actuarial Journal, 2025, accepted, DOI:10.1080/10920277.2025.2567283.</li>
-<li>Zhengxiao Li, Yifan Huang, Yang Cao. Improving healthcare cost prediction for chronic disease through covariate clustering and subgroup analysis method [J]. ASTIN Bulletin: The Journal of the IAA, 2025, 55(2): 374-394.</li>
-<li>Zhengxiao Li, Fei Wang, Zhengtang Zhao. A new class of composite GBII regression models with varying threshold for modelling heavy-tailed data, Insurance: Mathematics and Economics [J], 2024(117): 45–66. </li>
-<li>Zhengxiao Li, Jan Beirlant, Liang Yang. A new class of copula regression models for modelling multivariate heavy-tailed data. Insurance: Mathematics and Economics [J]. 104: 243-261, 2022.</li> 
-<li>Zhengxiao Li, Jan Beirlant, Shengwang Meng. Generalizing The Log-Moyal Distribution and Regression Models for Heavy-Tailed Loss Data [J]. ASTIN Bulletin: The Journal of the IAA, 11(1):57-99, 2021. </li> 
-<li>Yuantao Xie, Zhengxiao Li*, Rahul A Parsa.  Extensionand Application of Credibility Modelsin Predicting Claim Frequency[J].  Mathematical Problems in Engineering, 2018, 2018(02): 1-8. </li> 
-</ul>
+.research-item::before {
+  content: "▪";
+  position: absolute;
+  left: 0;
+  color: #3498db;
+  font-weight: bold;
+}
 
+.teaching-section {
+  margin-bottom: 12px;
+}
 
-<h3>Published Papers (Chinese)  </h3>
-<ul>
-<li>李政宵, 刘钰冰. 基于两阶段分位数随机森林的非完全支付赔款预测[J]. 保险研究, 2024, 拟录用.</li>
-<li>李政宵, 陈沫霖. 非寿险精算与风险模型的研究现状与方向 [J]. 中国精算师, 2024, 10:21-28.</li>
-<li>李政宵, 刘新红, 孟生旺. 多维地震风险模型与保险基金测算[J]. 保险研究, 2022(10): 45-60.</li>
-<li>刘新红, 孟生旺, 李政宵. 地震损失风险的Copula混合分布模型及其应用[J]. 系统工程理论与实践, 2019, 39(07): 1855-1866. </li> 
-<li>孟生旺, 李政宵. 地震死亡人数预测与巨灾保险基金测算[J]. 统计研究, 2018, 35(10): 89-102.</li> 
-<li>李政宵, 孟生旺. 我国商业车险奖惩系统的构建与评价[J]. 系统工程理论与实践, 2018, 38(04): 938-949. </li> 
-<li>李政宵, 孟生旺. 基于GB2分布的贝叶斯相依性准备金评估模型[J]. 统计研究, 2018, 35(01): 91-103.</li> 
-<li>李政宵, 孟生旺. 相依风险的团体健康保险损失预测[J]. 数理统计与管理, 2018, 37(03): 399-412. </li> 
-<li>孟生旺, 李政宵. 索赔频率与索赔强度的相依性模型[J]. 统计研究, 2017, 34(01): 55-66. </li> 
-<li>马瑜, 李政宵, 马敏. 中国老年多维贫困的测度和致贫因素——基于社区和家庭的分层研究[J]. 经济问题, 2016(10): 27-33. </li> 
-<li>蒋涛, 李政宵. 我国银行业系统性风险结构度量——基于尾部依赖视角[J]. 合肥学院学报(综合版), 2016, 33(04): 17-23. </li> 
-<li>李政宵, 孟生旺. 相依风险条件下的汽车保险定价模型[J]. 保险研究, 2016(07): 68-77. <li>
-<li>李政宵, 孟生旺. 考虑空间效应的贝叶斯分层模型与索赔频率预测[J]. 数学的实践与认识, 2016, 46(10): 193-202. </li> 
-<li>孟生旺, 李政宵. 偏t分布假设下的空间效应模型及其应用[J]. 数理统计与管理, 2016, 35(06): 1028-1037. </li> 
-<li>孟生旺, 李政宵. 基于随机效应零调整回归模型的保险损失预测[J]. 统计与信息论坛, 2015, 30(12): 3-9. </li> 
-<li>谢远涛, 李政宵. 基于联合定价模型的奖惩因子的扩展与比较[J]. 统计与信息论坛, 2015, 30(06): 33-39. </li> 
-</ul>
+.teaching-section strong {
+  color: #2c3e50;
+}
+</style>
 
-<h3>Grants  </h3>
-<ul>
-<li>Principal Investigator, National Natural Science Foundation of China General Project, 72271056, "Data-driven Green Insurance Actuarial Pricing Model: Theory and Application," 2023/01-Present, Ongoing</li>
-<li>Principal Investigator, National Natural Science Foundation of China Youth Project, 71901064, "Catastrophe Insurance Pricing Model and Its Application Research under Complex Data Structures," 2020/01-2022/01, Completed</li>
-<li>Principal Investigator, University of International Business and Economics Innovation Team Project, CXTD13-02, "Research Innovation Team on Green Insurance Actuarial Methods and Risk Management," 2019/01-Present, Ongoing</li>
-<li>Principal Investigator, University of International Business and Economics New Faculty Research Startup Project, 17QD11, "Application of Agricultural Risk Identification and Assessment in Agricultural Insurance," 2018/01-2018/12, Completed</li>
-<li>Participant, National Social Science Fund General Project, 18BJY212, "Research on the Redistributive Function of Social Security System," 2017/12-Present, Completed</li>
-<li>Participant, University of International Business and Economics School-level Project, CXTD9-04, "Research Innovation Team on Risk Dependence and Actuarial Rate Setting System," Completed</li>
-<li>Principal Investigator, Renmin University of China Scientific Research Fund Project, 16XNH104, "Application of Hierarchical Models Considering Risk Dependence in Non-life Insurance Actuarial Models," 2016/01-2017/06, Completed</li>
-<li>Principal Investigator, University of International Business and Economics Graduate Research Innovation Project, 2010030044, "Research on Copula Credibility Models," 2013/06-2014/06, Completed</li>
-<li>Principal Investigator, China Pacific Insurance Company Disaster Research Fund Project, 2009030007, "Application of Generalized Linear Models in Auto Insurance Pricing and SAS Software," 2013/06-2014/06, Completed</li>
-</ul>
+<div class="cv-section">
+  <h3>Work Experience</h3>
+  <div class="timeline-item">
+    <strong>2025 – Present</strong> &nbsp; University of International Business and Economics &nbsp; Associate Dean, School of Insurance and Economics
+  </div>
+  <div class="timeline-item">
+    <strong>2023 – 2025</strong> &nbsp; University of International Business and Economics &nbsp; Dean, Department of Statistics and Actuarial Science
+  </div>
+  <div class="timeline-item">
+    <strong>2023 – Present</strong> &nbsp; University of International Business and Economics &nbsp; Doctoral Supervisor
+  </div>
+  <div class="timeline-item">
+    <strong>2020 – Present</strong> &nbsp; University of International Business and Economics &nbsp; Associate Professor
+  </div>
+  <div class="timeline-item">
+    <strong>2019 – 2020</strong> &nbsp; KU Leuven &nbsp; Visiting Scholar
+  </div>
+  <div class="timeline-item">
+    <strong>2017 – 2020</strong> &nbsp; University of International Business and Economics &nbsp; Assistant Professor
+  </div>
+</div>
 
-<h3>Awards  </h3>
-<ul>
-<li>Excellent Young Scholar, University of International Business and Economics</li>
-<li>Director of the Risk Management and Actuarial Branch of the China Society for Field Statistics</li>
-<li>Director of the Quantitative Finance and Insurance Branch of the China Society for Optimal Control and Economic Mathematics</li>
-<li>Young Member of the Actuarial and Insurance Committee of the Financial Mathematics and Financial Engineering Branch of the Chinese Society for Industrial and Applied Mathematics</li>
-<li>Member of the Health Insurance Professional Committee of the Chinese Preventive Medicine Association</li>
-<li>Member of the Chinese Statistical Education Society</li>
-<li>Member of the International Certified Financial Risk Manager Association (ICFRM) </li>
-</ul>
+<div class="cv-section">
+  <h3>Education Background</h3>
+  <div class="timeline-item">
+    <strong>2014-2017</strong> &nbsp; Renmin University of China &nbsp; School of Statistics &nbsp; Department of Risk Management and Actuarial Science &nbsp; PhD
+  </div>
+  <div class="timeline-item">
+    <strong>2012-2014</strong> &nbsp; University of International Business and Economics &nbsp; School of Insurance and Economics &nbsp; Master
+  </div>
+  <div class="timeline-item">
+    <strong>2008-2012</strong> &nbsp; Xiamen University &nbsp; School of Economics &nbsp; Department of Finance &nbsp; Bachelor
+  </div>
+</div>
 
-<h3>Academic Conferences  </h3>
- <ul>
-  <li>The 4th Insurance and Reinsurance Forum, Xiamen, 2025.</li>
-<li>The 23rd China International Talent Exchange Conference, Shanghai, 2025.</li>
-<li>The 16th Risk Management and Actuarial Science Forum, Jinan, 2025.</li>
-<li>The 3rd International Conference on Actuarial Science, Quantitative Finance, and Risk Management, Beijing, 2025.</li>
-<li>The 2025 International Workshop on Risk Sharing Theory and Applications, Beijing, 2025.</li>
-  <li> China International Conference on Insurance and Risk Management (CICIRM), Ningbo, 2024.</li>
-    <li>Second International Conference on Actuarial Science, Quantitative Finance and Risk Management, Beijing, 2024.</li>
-    <li>First International Symposium on Insurance and Actuarial Science, Tianjin, 2024.</li>
-    <li>2024 International Symposium on Latest Advances in Actuarial Science and Computational Finance, Beijing, 2024.</li>
-    <li>Winter Forum on Actuarial Science and Risk Management, Beijing, 2023.</li>
-    <li>Second International Workshop on Probability Theory and Stochastic Control, Shenzhen, 2023.</li>
-    <li>Second Chinese Conference on Actuarial Theory and Applications, Wuhan, 2023.</li>
-    <li>Third Forum on Insurance and Reinsurance, Xiamen, 2023.</li>
-    <li>Second Forum on Actuarial Education, Tianjin, 2023.</li>
-    <li>14th China Risk Management and Actuarial Forum, Beijing, 2023.</li>
-    <li>China International Conference on Insurance and Risk Management (CICIRM), Guangzhou, 2023.</li>
-    <li>5th Annual Academic Conference of the Chinese Society for Optimal Control and Economic Mathematics on Quantitative Finance and Insurance, Wuhan, 2023.</li>
-    <li>4th Annual Academic Conference of the Chinese Society for Optimal Control and Economic Mathematics on Quantitative Finance and Insurance, Online, 2022.</li>
-    <li>13th China Risk Management and Actuarial Forum, Online, 2022.</li>
-    <li>2nd Workshop on Financial Mathematics and Financial Engineering and Actuarial Insurance, Online, 2022.</li>
-    <li>2nd Forum on Insurance and Reinsurance, Online, 2022.</li>
-    <li>China International Conference on Insurance and Risk Management (CICIRM), Changsha, 2022.</li>
-   <li>The 25th International Congress on Insurance: Mathematics and Economics, online, 2022.</li> 
-  <li> The 12th annual China International Conference on Insurance and Risk Management, Changsha, 2022.</li>
-<li>The 13th China Risk Management and Actuarial Forum, Beijing, 2021.</li>
-<li>The First Xiamen University Insurance and Reinsurance Forum, Xiamen, 2021.</li>
-<li> The 11th annual China International Conference on Insurance and Risk Management, Heilongjiang, 2021.</li>
-<li>the 7th annual China International Risk Forum, Chengdu, 2021.</li>
-<li>The 3rd (2021) Annual Academic Conference of the Quantitative Finance and Insurance Branch of the China Optimal Method, Coordination Method and Economic Mathematics Research Association, Luoyang, 2021.</li>
-<li>The 12th China Risk Management and Actuarial Forum, Xiamen, 2020.</li>
-<li>Invited to participate in the academic report of the Actuarial Department of Southwestern University of Finance and Economics, 2020.</li>
-<li>Invited to participate in the academic report of the Department of Mathematics and Statistics of East China Normal University, 2020.</li>
-<li>Invited to participate in the academic report of the Department of Actuarial Sciences, Central University of Finance and Economics, 2020.</li>
-<li>Invited to participate in the academic report of the Department of Actuarial Sciences, University of Leuven, Belgium, 2019.</li>
-<li>The 7th annual China International Conference on Insurance and Risk Management, Guilin, 2017.</li>
-</ul>
+<div class="cv-section">
+  <h3>Research Fields</h3>
+  <div class="research-item">Non-life ratemaking and reserving</div>
+  <div class="research-item">Catastrophe risk measurement, extreme value theory</div>
+  <div class="research-item">Statistical models, dependent risk analysis</div>
+  <div class="research-item">Big data and machine learning methods</div>
+  <div class="research-item">R programming</div>
+</div>
 
-<h3>Academic Conferences  </h3>
- <ul>
-<li>Anonymous Reviewer for <em>ASTIN Bulletin: The Journal of the International Actuarial Association</em></li>
-<li>Anonymous Reviewer for <em>Insurance: Mathematics and Economics</em></li>
-<li>Anonymous Reviewer for <em>Annals of Actuarial Science</em></li>
-<li>Anonymous Reviewer for <em>Systems Engineering – Theory & Practice</em></li>
-<li>Anonymous Reviewer for <em>Statistics & Information Forum</em></li>
-<li>Anonymous Reviewer for <em>Insurance Studies</em></li>
-</ul>
- </div>
+<div class="cv-section">
+  <h3>Teaching</h3>
+  <div class="teaching-section">
+    <strong>Undergraduate:</strong> Interest Theory, Non-Life Actuarial Science
+  </div>
+  <div class="teaching-section">
+    <strong>Graduate:</strong> Econometrics, Non-life Ratemaking, Machine Learning and Insurance Data Analysis, Quantitative Risk Management, Risk Modeling, Insurance Data Analysis and R Programming
+  </div>
+</div>
+
+<div class="cv-section">
+  <h3>Working Papers</h3>
+  <div class="paper-item">
+    Jiakun Jiang, Zhengxiao Li, Liang Yang. <a href="https://arxiv.org/abs/2301.03005">Dynamic online prediction model and its application to automobile claim frequency data</a>, arXiv:2301.03005, 2023.
+  </div>
+  <div class="paper-item">
+    Liang Yang, Zhengxiao Li, Shengwang Meng. <a href="https://arxiv.org/abs/2002.01798">Risk Loadings in Classification Ratemaking</a>, arXiv:2002.01798, 2020.
+  </div>
+  <div class="paper-item">
+    Zhengxiao Li, <a href="https://lizhengxiao.github.io/rMGLReg/">R package for a new beta-type copula: rMGLReg</a>.
+  </div>
+</div>
+
+<div class="cv-section">
+  <h3>Published Papers (English)</h3>
+  <div class="paper-item">Fangping Yu, Mengdan Zhang, Zhengxiao Li, Mo Yang. Ship insurance in the era of AI: An intelligent risk profiling system under the POM principles [J]. Journal of Risk and Insurance, 2025, DOI: 10.1111/jori.70033.</div>
+  <div class="paper-item">Pengcheng Zhang, Zhengxiao Li, Kuangnan Fang, Spatially clustered mixture of experts model for dependent frequency and severity of insurance claims [J]. North American Actuarial Journal, 2025, DOI:10.1080/10920277.2025.2567283.</div>
+  <div class="paper-item">Zhengxiao Li, Yifan Huang, Yang Cao. Improving healthcare cost prediction for chronic disease through covariate clustering and subgroup analysis method [J]. ASTIN Bulletin: The Journal of the IAA, 2025, 55(2): 374-394.</div>
+  <div class="paper-item">Zhengxiao Li, Fei Wang, Zhengtang Zhao. A new class of composite GBII regression models with varying threshold for modelling heavy-tailed data [J]. Insurance: Mathematics and Economics, 2024(117): 45–66.</div>
+  <div class="paper-item">Zhengxiao Li, Jan Beirlant, Liang Yang. A new class of copula regression models for modelling multivariate heavy-tailed data [J]. Insurance: Mathematics and Economics. 104: 243-261, 2022.</div>
+  <div class="paper-item">Zhengxiao Li, Jan Beirlant, Shengwang Meng. Generalizing The Log-Moyal Distribution and Regression Models for Heavy-Tailed Loss Data [J]. ASTIN Bulletin: The Journal of the IAA, 11(1):57-99, 2021.</div>
+  <div class="paper-item">Yuantao Xie, Zhengxiao Li*, Rahul A Parsa. Extension and Application of Credibility Models in Predicting Claim Frequency [J]. Mathematical Problems in Engineering, 2018, 2018(02): 1-8.</div>
+</div>
+
+<div class="cv-section">
+  <h3>Published Papers (Chinese)</h3>
+  <div class="paper-item">李政宵, 刘钰冰. 基于两阶段分位数随机森林的非完全支付赔款预测 [J]. 保险研究, 2024, 10:59-72.</div>
+  <div class="paper-item">李政宵, 陈沫霖. 非寿险精算与风险模型的研究现状与方向 [J]. 中国精算师, 2024, 10:21-28.</div>
+  <div class="paper-item">李政宵, 刘新红, 孟生旺. 多维地震风险模型与保险基金测算 [J]. 保险研究, 2022(10): 45-60.</div>
+  <div class="paper-item">刘新红, 孟生旺, 李政宵. 地震损失风险的Copula混合分布模型及其应用 [J]. 系统工程理论与实践, 2019, 39(07): 1855-1866.</div>
+  <div class="paper-item">孟生旺, 李政宵. 地震死亡人数预测与巨灾保险基金测算 [J]. 统计研究, 2018, 35(10): 89-102.</div>
+  <div class="paper-item">李政宵, 孟生旺. 我国商业车险奖惩系统的构建与评价 [J]. 系统工程理论与实践, 2018, 38(04): 938-949.</div>
+  <div class="paper-item">李政宵, 孟生旺. 基于GB2分布的贝叶斯相依性准备金评估模型 [J]. 统计研究, 2018, 35(01): 91-103.</div>
+  <div class="paper-item">李政宵, 孟生旺. 相依风险的团体健康保险损失预测 [J]. 数理统计与管理, 2018, 37(03): 399-412.</div>
+  <div class="paper-item">孟生旺, 李政宵. 索赔频率与索赔强度的相依性模型 [J]. 统计研究, 2017, 34(01): 55-66.</div>
+  <div class="paper-item">马瑜, 李政宵, 马敏. 中国老年多维贫困的测度和致贫因素——基于社区和家庭的分层研究 [J]. 经济问题, 2016(10): 27-33.</div>
+  <div class="paper-item">蒋涛, 李政宵. 我国银行业系统性风险结构度量——基于尾部依赖视角 [J]. 合肥学院学报(综合版), 2016, 33(04): 17-23.</div>
+  <div class="paper-item">李政宵, 孟生旺. 相依风险条件下的汽车保险定价模型 [J]. 保险研究, 2016(07): 68-77.</div>
+  <div class="paper-item">李政宵, 孟生旺. 考虑空间效应的贝叶斯分层模型与索赔频率预测 [J]. 数学的实践与认识, 2016, 46(10): 193-202.</div>
+  <div class="paper-item">孟生旺, 李政宵. 偏t分布假设下的空间效应模型及其应用 [J]. 数理统计与管理, 2016, 35(06): 1028-1037.</div>
+  <div class="paper-item">孟生旺, 李政宵. 基于随机效应零调整回归模型的保险损失预测 [J]. 统计与信息论坛, 2015, 30(12): 3-9.</div>
+  <div class="paper-item">谢远涛, 李政宵. 基于联合定价模型的奖惩因子的扩展与比较 [J]. 统计与信息论坛, 2015, 30(06): 33-39.</div>
+</div>
+
+<div class="cv-section">
+  <h3>Research Grants</h3>
+  <div class="paper-item">Principal Investigator, National Natural Science Foundation of China General Project, 72271056, "Data-driven Green Insurance Actuarial Pricing Model: Theory and Application," 2023/01-Present, Ongoing</div>
+  <div class="paper-item">Principal Investigator, National Natural Science Foundation of China Youth Project, 71901064, "Catastrophe Insurance Pricing Model and Its Application Research under Complex Data Structures," 2020/01-2022/01, Completed</div>
+  <div class="paper-item">Principal Investigator, University of International Business and Economics Innovation Team Project, CXTD13-02, "Research Innovation Team on Green Insurance Actuarial Methods and Risk Management," 2019/01-Present, Completed</div>
+  <div class="paper-item">Principal Investigator, University of International Business and Economics New Faculty Research Startup Project, 17QD11, "Application of Agricultural Risk Identification and Assessment in Agricultural Insurance," 2018/01-2018/12, Completed</div>
+  <div class="paper-item">Participant, National Social Science Fund General Project, 18BJY212, "Research on the Redistributive Function of Social Security System," 2017/12-Present, Completed</div>
+  <div class="paper-item">Participant, University of International Business and Economics School-level Project, CXTD9-04, "Research Innovation Team on Risk Dependence and Actuarial Rate Setting System," Completed</div>
+  <div class="paper-item">Principal Investigator, Renmin University of China Scientific Research Fund Project, 16XNH104, "Application of Hierarchical Models Considering Risk Dependence in Non-life Insurance Actuarial Models," 2016/01-2017/06, Completed</div>
+  <div class="paper-item">Principal Investigator, University of International Business and Economics Graduate Research Innovation Project, 2010030044, "Research on Copula Credibility Models," 2013/06-2014/06, Completed</div>
+  <div class="paper-item">Principal Investigator, China Pacific Insurance Company Disaster Research Fund Project, 2009030007, "Application of Generalized Linear Models in Auto Insurance Pricing and SAS Software," 2013/06-2014/06, Completed</div>
+</div>
+
+<div class="cv-section">
+  <h3>Awards and Honors</h3>
+  <div class="research-item">Excellent Young Scholar, University of International Business and Economics</div>
+  <div class="research-item">Director of the Risk Management and Actuarial Branch of the China Society for Field Statistics</div>
+  <div class="research-item">Director of the Quantitative Finance and Insurance Branch of the China Society for Optimal Control and Economic Mathematics</div>
+  <div class="research-item">Young Member of the Actuarial and Insurance Committee of the Financial Mathematics and Financial Engineering Branch of the Chinese Society for Industrial and Applied Mathematics</div>
+  <div class="research-item">Member of the Health Insurance Professional Committee of the Chinese Preventive Medicine Association</div>
+  <div class="research-item">Member of the Chinese Statistical Education Society</div>
+  <div class="research-item">Member of the International Certified Financial Risk Manager Association (ICFRM)</div>
+</div>
+
+<div class="cv-section">
+  <h3>Academic Conferences</h3>
+  <div class="paper-item">The 4th Insurance and Reinsurance Forum, Xiamen, 2025.</div>
+  <div class="paper-item">The 23rd China International Talent Exchange Conference, Shanghai, 2025.</div>
+  <div class="paper-item">The 16th Risk Management and Actuarial Science Forum, Jinan, 2025.</div>
+  <div class="paper-item">The 3rd International Conference on Actuarial Science, Quantitative Finance, and Risk Management, Beijing, 2025.</div>
+  <div class="paper-item">The 2025 International Workshop on Risk Sharing Theory and Applications, Beijing, 2025.</div>
+  <div class="paper-item">China International Conference on Insurance and Risk Management (CICIRM), Ningbo, 2024.</div>
+  <div class="paper-item">Second International Conference on Actuarial Science, Quantitative Finance and Risk Management, Beijing, 2024.</div>
+  <div class="paper-item">First International Symposium on Insurance and Actuarial Science, Tianjin, 2024.</div>
+  <div class="paper-item">2024 International Symposium on Latest Advances in Actuarial Science and Computational Finance, Beijing, 2024.</div>
+  <div class="paper-item">Winter Forum on Actuarial Science and Risk Management, Beijing, 2023.</div>
+  <div class="paper-item">Second International Workshop on Probability Theory and Stochastic Control, Shenzhen, 2023.</div>
+  <div class="paper-item">Second Chinese Conference on Actuarial Theory and Applications, Wuhan, 2023.</div>
+  <div class="paper-item">Third Forum on Insurance and Reinsurance, Xiamen, 2023.</div>
+  <div class="paper-item">Second Forum on Actuarial Education, Tianjin, 2023.</div>
+  <div class="paper-item">14th China Risk Management and Actuarial Forum, Beijing, 2023.</div>
+  <div class="paper-item">China International Conference on Insurance and Risk Management (CICIRM), Guangzhou, 2023.</div>
+  <div class="paper-item">5th Annual Academic Conference of the Chinese Society for Optimal Control and Economic Mathematics on Quantitative Finance and Insurance, Wuhan, 2023.</div>
+  <div class="paper-item">4th Annual Academic Conference of the Chinese Society for Optimal Control and Economic Mathematics on Quantitative Finance and Insurance, Online, 2022.</div>
+  <div class="paper-item">13th China Risk Management and Actuarial Forum, Online, 2022.</div>
+  <div class="paper-item">2nd Workshop on Financial Mathematics and Financial Engineering and Actuarial Insurance, Online, 2022.</div>
+  <div class="paper-item">2nd Forum on Insurance and Reinsurance, Online, 2022.</div>
+  <div class="paper-item">China International Conference on Insurance and Risk Management (CICIRM), Changsha, 2022.</div>
+  <div class="paper-item">The 25th International Congress on Insurance: Mathematics and Economics, Online, 2022.</div>
+  <div class="paper-item">The 12th annual China International Conference on Insurance and Risk Management, Changsha, 2022.</div>
+  <div class="paper-item">The 13th China Risk Management and Actuarial Forum, Beijing, 2021.</div>
+  <div class="paper-item">The First Xiamen University Insurance and Reinsurance Forum, Xiamen, 2021.</div>
+  <div class="paper-item">The 11th annual China International Conference on Insurance and Risk Management, Heilongjiang, 2021.</div>
+  <div class="paper-item">The 7th annual China International Risk Forum, Chengdu, 2021.</div>
+  <div class="paper-item">The 3rd (2021) Annual Academic Conference of the Quantitative Finance and Insurance Branch of the China Optimal Method, Coordination Method and Economic Mathematics Research Association, Luoyang, 2021.</div>
+  <div class="paper-item">The 12th China Risk Management and Actuarial Forum, Xiamen, 2020.</div>
+  <div class="paper-item">Invited to participate in the academic report of the Actuarial Department of Southwestern University of Finance and Economics, 2020.</div>
+  <div class="paper-item">Invited to participate in the academic report of the Department of Mathematics and Statistics of East China Normal University, 2020.</div>
+  <div class="paper-item">Invited to participate in the academic report of the Department of Actuarial Sciences, Central University of Finance and Economics, 2020.</div>
+  <div class="paper-item">Invited to participate in the academic report of the Department of Actuarial Sciences, University of Leuven, Belgium, 2019.</div>
+  <div class="paper-item">The 7th annual China International Conference on Insurance and Risk Management, Guilin, 2017.</div>
+</div>
+
+<div class="cv-section">
+  <h3>Journal Reviewer</h3>
+  <div class="research-item">Anonymous Reviewer for <em>ASTIN Bulletin: The Journal of the International Actuarial Association</em></div>
+  <div class="research-item">Anonymous Reviewer for <em>Insurance: Mathematics and Economics</em></div>
+  <div class="research-item">Anonymous Reviewer for <em>Annals of Actuarial Science</em></div>
+  <div class="research-item">Anonymous Reviewer for <em>Systems Engineering – Theory & Practice</em></div>
+  <div class="research-item">Anonymous Reviewer for <em>Statistics & Information Forum</em></div>
+  <div class="research-item">Anonymous Reviewer for <em>Insurance Studies</em></div>
+</div>
