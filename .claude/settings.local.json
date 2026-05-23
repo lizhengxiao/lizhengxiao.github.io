@@ -1,7 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(ruby --version)"
+      "Bash(ruby --version)",
+      "Bash(sed -i '378a\\\\\\\\t\\\\t\\\\ttext-align: justify;' \"D:/lizhengxiao.github.io/_sass/_layout.scss\")",
+      "Bash(sed -n '378,400p' \"D:/lizhengxiao.github.io/_sass/_layout.scss\")",
+      "Bash(git checkout *)",
+      "Bash(python3 *)",
+      "Bash(python *)"
     ]
   }
 }
