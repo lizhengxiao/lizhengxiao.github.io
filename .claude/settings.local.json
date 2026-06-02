@@ -6,7 +6,11 @@
       "Bash(sed -n '378,400p' \"D:/lizhengxiao.github.io/_sass/_layout.scss\")",
       "Bash(git checkout *)",
       "Bash(python3 *)",
-      "Bash(python *)"
+      "Bash(python *)",
+      "Bash(git add *)",
+      "Bash(git restore *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
